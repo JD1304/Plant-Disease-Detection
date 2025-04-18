@@ -7,7 +7,7 @@ import torch.nn as nn
 import google.generativeai as genai
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyDGe0IbYvNRHLm4uYaSOLnkIyKqaZE3qUc")
+genai.configure(api_key="Use your api key")
 model_gemini = genai.GenerativeModel('gemini-1.5-flash')
 
 # ImageClassificationBase class
